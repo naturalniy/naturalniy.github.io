@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Trebuchet MS, sans-serif	;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts b:hover {
+  cursor: pointer;
+}
+
+.contacts img {
+  width: 70px;
+  height: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.log img {
+  width: 30px;
+  height: 30px;
+}
+
+.log {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cash {
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.podhead {
+  display: flex;
+  background-color: rgb(0, 0, 138);
+  justify-content: center;
+  color: white;
+}
+
+.podhead span {
+  display: flex;
+  height: 50px;
+  width: 12%;
+  justify-content: center;
+  align-items: center
+}
+
+.podhead span:hover {
+  background-color: rgb(0, 0, 190);
+  cursor: pointer;
+}
+
+.atlantikabiz {
+  background-size: cover;
+  background-image: url(backraund1.png);
+  min-height: 700px;
+  padding: 70px;
+}
+
+
+.text div{
+  max-width: 800px;
+}
+
+.text p.ta{
+  margin-top: 400px;
+}
+
+.text p {
+  color: white;
+  font-size: 20px;
+}
+
+.reg {
+  padding: 10px;
+  display: flex;
+  background-color: rgb(0, 110, 255);
+  height: 30px;
+  width: 170px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.reg:hover {
+  cursor: pointer;
+}
+
+.text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+div.firmi div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.firmi div  img {
+  margin-right: 30px;
+}
+
+.firmi {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+div.budseredusih {
+  display: flex;
+  background-size: cover;
+  background-image: url(backgraund2.png);
+  color: white;
+  min-height: 600px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 200px;
+}
+
+div.budseredusih div {
+  max-width: 600px;
+}
+
+div.budseredusih h1 {
+  font-size: 50px;
+}
+
+.stat {
+  display: flex;
+  background-color: rgb(0, 110, 255);
+  height: 60px;
+  width: 170px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.stat:hover {
+  cursor: pointer;
+}
+
+div.pitannya {
+  padding: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.pitannya h1 {
+  font-weight: 1000px;
+  font-size: 50px;
+  color: rgb(0, 0, 105);
+  margin: 0;
+}
+
+div.pitannya div div.zapolnenye div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div.pitannya div div.zapolnenye {
+  display: flex;
+  width: 100%;
+  justify-content: space-between
+}
+
+
+input {
+  height: 25px;
+}
+
+div.pitannya div div span {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(70, 70, 70);
+}
+
+.zapolnenye {
+  margin-bottom: 30px;
+}
+
+.hz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.send {
+  display: flex;
+  background-color: rgb(0, 110, 255);
+  height: 60px;
+  width: 170px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.nadislati {
+  display: flex;
+  padding: 0;
+  text-align: start;
+  justify-content:space-between
+}
+
+.radiio {
+
+}
+
+.nadislati div.s {
+  display: flex;
+  flex-direction: column
+}
+
+.banana {
+  display: flex;
+  align-items: center;
+  align-items: flex-end
+}
+
+.s {
+  width: 700px;
+  color: gray;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+footer {
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: black;
+  color: rgb(170, 170, 170);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column
+}
+
+.contact2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 70%;
+}
+
+.suma {
+  display: flex;
+  width: 100%;
+}
+
+
+.footatl {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footatl img {
+  height: 20px;
+}
+
+.info {
+  width: 25%;
+}
+
+.info p{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info span{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info img {
+  margin-left: 5px;
+  width: 13px;
+  height: auto;
+}
+
+.catalog {
+  max-width: 100.5%;
+  display: flex;
+  flex-direction: column;
+}
+.catalog a {
+  margin: 2px;
+}
+
+.catalog a:hover {
+  color: rgb(212, 212, 212);
+  cursor: pointer;
+}
+
+.hr2 {
+  background-color: gray;
+  border: none;
+}
